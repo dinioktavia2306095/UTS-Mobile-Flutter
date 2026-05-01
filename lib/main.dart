@@ -12,14 +12,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: '/',
-      routes: {
-        '/': (context) => const LoginPage(),
-        '/home': (context) {
-          final username = ModalRoute.of(context)?.settings.arguments as String? ?? 'User';
-          return HomePage(username: username);
-        },
-      },
       home: const LoginPage(),
     );
   }
@@ -65,7 +57,7 @@ class _LoginPageState extends State<LoginPage> {
           'Login',
           style: TextStyle(color: Colors.white),
         ),
-        backgroundColor: const Color.fromARGB(255, 33, 219, 243)
+        backgroundColor: Colors.green,
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
