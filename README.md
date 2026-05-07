@@ -1,4 +1,4 @@
-# UTS Mobile Flutter - Dini Oktivia
+# UTS Mobile Flutter - Dini Oktivia - Sep Naufal
 
 ## Deskripsi Aplikasi
 
