@@ -57,6 +57,16 @@ lib/
 ├── home.dart          # Halaman home setelah login
 └── login.dart         # File login terpisah (jika ada)
 ```
+## 📸 Screenshot Aplikasi
+
+### Halaman Login
+![Login Page](screenshots/login_page.png)
+
+### Halaman Home
+![Home Page](screenshots/home_page.png)
+
+### Halaman Profile
+![Profile Page](screenshots/profile_page.png)
 
 ## Cara Menjalankan Aplikasi
 
