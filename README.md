@@ -121,8 +121,10 @@ UTS-Mobile-Flutter-Dini-Oktivia/
 
 ## Author
 
-- **Nama**: Dini Oktivia
-- **NIM**: 2306095
+- **Nama**: - Dini Oktivia Safitri 
+            - Sep Naufal Dzimar Sadli
+- **NIM**:  - 2306095
+-           - 2306078
 - **Mata Kuliah**: UTS Mobile Development
 
 ## Lisensi
