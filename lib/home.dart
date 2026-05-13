@@ -11,10 +11,10 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  // ── Soal 5: Simulasi penyimpanan data dengan state/local variable ──
+  //Simulasi penyimpanan data dengan state/local variable ──
   late Map<String, String> _userData;
 
-  // Dummy data produk untuk ListView (Soal 3)
+  // Dummy data produk untuk ListView
   final List<Map<String, dynamic>> _products = [
     {
       'name': 'Laptop Gaming ASUS ROG',
@@ -77,7 +77,7 @@ class _HomePageState extends State<HomePage> {
     };
   }
 
-  // ── Soal 5: Logout kembali ke Login ──
+  //Logout kembali ke Login
   void _logout() {
     showDialog(
       context: context,
@@ -130,7 +130,7 @@ class _HomePageState extends State<HomePage> {
         builder: (_) => ProfilePage(
           userData: Map.from(_userData),
           onUpdate: (updatedData) {
-            // ── Soal 5: Update state/local variable ──
+            //Update state/local variable
             setState(() {
               _userData = updatedData;
             });
@@ -250,7 +250,7 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
 
-          // ── Soal 3: ListView daftar produk ──
+          //ListView daftar produk ──
           Expanded(
             child: ListView.builder(
               padding: const EdgeInsets.symmetric(horizontal: 16),
@@ -301,7 +301,7 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
 
-          // ── Tombol menuju halaman Profile (Soal 3) ──
+          //Tombol menuju halaman Profile
           Padding(
             padding: const EdgeInsets.fromLTRB(16, 8, 16, 16),
             child: SizedBox(
